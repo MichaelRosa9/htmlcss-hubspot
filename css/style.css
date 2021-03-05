@@ -9,6 +9,7 @@ body {
 }
 
 .container {
+  position: relative;
   width: 80%;
   min-width: 1200px;
   margin: auto;
@@ -28,6 +29,9 @@ body {
   float: left;
 }
 
+.txt-al-r {
+  text-align: right;
+}
 .w-50 {
   width: 50%;
 }
@@ -76,7 +80,6 @@ body {
 }
 
 /* NAV */
-
 nav li {
   display: inline-block;
   margin: 0 1%;
@@ -92,9 +95,35 @@ nav a {
   padding-right: 2%;
 }
 
-/* LOG IN */
+/* NAV MENU-ABOUT SORT ARROW */
+#menu-about li {
+  margin-left: 2%;
+}
+#menu-about i.fa-chevron-down {
+  margin-left: 15px;
+}
 
-#log-in-src {
-  text-align: right;
+#nav-drop-down-menu {
+  border-top: solid 1px #294050;
+}
+
+
+/* BANNER HEADER */
+
+#banner-header {
+  position: relative;
+  height: 725px;
+  background-image: url(../img/jumbotron.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #FFF2ED;
+}
+
+
+#bot-banner-overlay {
+  position: absolute;
+  bottom: 0;
+  border: solid #2A3E50;
+  border-width: 3px 0; 
 }
 
