@@ -15,10 +15,21 @@ body {
   margin: auto;
 }
 
+.inl-blck {
+  display: inline-block;
+}
+
+/* HORIZONTAL BARS */
 .h-bar100 {
   width: 100%;
   height: 100px;
 }
+
+.h-bar80 {
+  width: 100%;
+  height: 80px;
+}
+
 .clearfix {
   content: '';
   display: table;
@@ -28,28 +39,55 @@ body {
 .float-left {
   float: left;
 }
+/* FONT SIZES */
+.font-12 {
+  font-size: 12px;
+}
+.font-14 {
+  font-size: 14px;
+}
 
+/* TEXT ALIGNS */
 .txt-al-r {
   text-align: right;
 }
+.vtal-m {
+  vertical-align: middle;
+}
+
+/* WIDTHS PADDINGS AND MARGINS */
 .w-50 {
   width: 50%;
 }
-.pt-40 {
+.pv-40 {
   padding: 40px 0;
+}
+
+.pv-25 {
+  padding: 25px 0;
+}
+.mv-20 {
+  margin: 20px 0;
+}
+.mv-50 {
+  margin: 50px 0;
+}
+
+.mt-70 {
+  margin-top: 70px;
 }
 
 /* BUTTONS */
 .btn {
   padding: 10px;
+  text-decoration: none;
   border: solid 1px;  
   border-radius: 6px;
   color: #FF6C55;
 }
-
-
-
-
+.jumbotron .btn{
+  padding: 20px 35px;
+}
 
 /* BACKGROUND COLORS */
 .bg-lgrey {
@@ -97,6 +135,7 @@ nav a {
 
 /* NAV MENU-ABOUT SORT ARROW */
 #menu-about li {
+  margin-top: 5px;
   margin-left: 2%;
 }
 #menu-about i.fa-chevron-down {
@@ -112,7 +151,7 @@ nav a {
 
 #banner-header {
   position: relative;
-  height: 725px;
+  height: 695px;    
   background-image: url(../img/jumbotron.png);
   background-position: right;
   background-repeat: no-repeat;
@@ -122,8 +161,23 @@ nav a {
 
 #bot-banner-overlay {
   position: absolute;
-  bottom: 0;
+  bottom: -14px;
   border: solid #2A3E50;
   border-width: 3px 0; 
 }
 
+
+#header-jumbotron {
+  position: absolute;
+  top: 70px;
+  width: 36%;
+}
+
+#header-jumbotron h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+#header-jumbotron p {
+  line-height: 25px;
+
+}
