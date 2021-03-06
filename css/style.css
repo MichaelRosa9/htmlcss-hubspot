@@ -14,9 +14,14 @@ body {
   min-width: 1200px;
   margin: auto;
 }
-
-.inl-blck {
-  display: inline-block;
+/* LINE HEGHT P */
+h2 {
+  font-size: 200%%;
+}
+p {
+  line-height: 30px;
+  font-size: 87%;
+  font-weight: 500;
 }
 
 /* HORIZONTAL BARS */
@@ -29,7 +34,7 @@ body {
   width: 100%;
   height: 80px;
 }
-
+/* CLEARFIX */
 .clearfix {
   content: '';
   display: table;
@@ -39,18 +44,31 @@ body {
 .float-left {
   float: left;
 }
+
+/* DSIPLAY */
+.block {
+  display: block;
+}
+
+.inl-blck {
+  display: inline-block;
+}
+
 /* FONT SIZES */
-.font-12 {
-  font-size: 12px;
+.font-80perc {
+  font-size: 80%;
 }
-.font-14 {
-  font-size: 14px;
-}
+
 
 /* TEXT ALIGNS */
 .txt-al-r {
   text-align: right;
 }
+.txt-al-c {
+  text-align: center;
+}
+
+/* VERTICAL ALIGN */
 .vtal-m {
   vertical-align: middle;
 }
@@ -69,10 +87,16 @@ body {
 .mv-20 {
   margin: 20px 0;
 }
+.mv-30 {
+  margin: 30px 0;
+}
 .mv-50 {
   margin: 50px 0;
 }
 
+.mt-60 {
+  margin-top: 60px;
+}
 .mt-70 {
   margin-top: 70px;
 }
@@ -126,6 +150,11 @@ nav a {
   text-decoration: none;
 }
 
+nav .srch-icon img {
+  width: 40%;
+  vertical-align: middle;
+}
+
 /* NAV LANG/CONTACT US */
 #nav-lang-contact li:first-of-type {
   border-right: solid 1px;
@@ -177,7 +206,16 @@ nav a {
   font-size: 40px;
   font-weight: 700;
 }
-#header-jumbotron p {
-  line-height: 25px;
 
+
+/* CUBE POWERFULL SECTION */
+#cube-powerfull img {
+  width: 20%;
+  margin: 50px auto 0;
+}
+
+
+#cube-powerfull .txt-al-c.drkbl {
+  width: 55%;
+  margin: auto;
 }
