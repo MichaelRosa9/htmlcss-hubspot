@@ -10,17 +10,23 @@ body {
 
 .container {
   position: relative;
-  width: 80%;
+  width: 70%;
   min-width: 1200px;
   margin: auto;
 }
+
 /* LINE HEGHT P */
 h2 {
-  font-size: 200%%;
+  font-size: 200%;
 }
+
+h3 {  
+  font-size: 140%;
+}
+
 p {
   line-height: 30px;
-  font-size: 87%;
+  font-size: 90%;
   font-weight: 500;
 }
 
@@ -34,6 +40,7 @@ p {
   width: 100%;
   height: 80px;
 }
+
 /* CLEARFIX */
 .clearfix {
   content: '';
@@ -68,22 +75,37 @@ p {
   text-align: center;
 }
 
-/* VERTICAL ALIGN */
-.vtal-m {
-  vertical-align: middle;
+
+/* WIDTHS */
+
+.w-30 {
+  width: 30%;
 }
 
-/* WIDTHS PADDINGS AND MARGINS */
 .w-50 {
   width: 50%;
 }
+
+/* PADDINGS AND MARGINS */
+.pv-25 {
+  padding: 25px 0;
+}
+
 .pv-40 {
   padding: 40px 0;
 }
 
-.pv-25 {
-  padding: 25px 0;
+.pt-5 {
+  padding-top: 5px;
 }
+
+.pt-60 {
+  padding-top: 60px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+
 .mv-20 {
   margin: 20px 0;
 }
@@ -93,12 +115,16 @@ p {
 .mv-50 {
   margin: 50px 0;
 }
+.mt-50 {
+  margin-top: 50px;
+}
 
 .mt-60 {
   margin-top: 60px;
 }
-.mt-70 {
-  margin-top: 70px;
+
+.m-auto {
+  margin: auto;
 }
 
 /* BUTTONS */
@@ -109,7 +135,8 @@ p {
   border-radius: 6px;
   color: #FF6C55;
 }
-.jumbotron .btn{
+
+.btn-lrg .btn{
   padding: 20px 35px;
 }
 
@@ -117,7 +144,9 @@ p {
 .bg-lgrey {
   background-color: #F2F8FC;
 }
-
+.bg-white {
+  background-color: white;
+}
 .bg-red {
   background-color: #FF6C55;
 }
@@ -141,6 +170,7 @@ p {
   color: white;
 }
 
+
 /* NAV */
 nav li {
   display: inline-block;
@@ -154,6 +184,7 @@ nav .srch-icon img {
   width: 40%;
   vertical-align: middle;
 }
+
 
 /* NAV LANG/CONTACT US */
 #nav-lang-contact li:first-of-type {
@@ -177,7 +208,6 @@ nav .srch-icon img {
 
 
 /* BANNER HEADER */
-
 #banner-header {
   position: relative;
   height: 695px;    
@@ -199,7 +229,7 @@ nav .srch-icon img {
 #header-jumbotron {
   position: absolute;
   top: 70px;
-  width: 36%;
+  width: 45%;
 }
 
 #header-jumbotron h1 {
@@ -216,6 +246,69 @@ nav .srch-icon img {
 
 
 #cube-powerfull .txt-al-c.drkbl {
-  width: 55%;
+  width: 65%;
   margin: auto;
+}
+
+/* BOX SECTIONS */
+.box {  
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px  rgba(0, 0, 0, 0.3);
+}
+
+.box ul{
+  list-style: none;
+}
+
+.box i {
+  font-size: 60%;
+  padding: 2px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 3%;
+}
+
+/* FREE HUBSPOT CRM  */
+.box img {
+  width: 50%;
+}
+
+#free-hubspot-crm .box {
+  width: 100%;
+  padding: 80px 8% 60px;
+}
+
+#free-hubspot-crm #book-learn-more {
+  width: 20%;
+  margin-right: 7%;
+}
+
+#free-hubspot-crm .box-text {
+  width: 60%;
+}
+
+#free-hubspot-crm  h5 {
+  position: relative;
+  font-size: 110%;
+}
+
+#free-hubspot-crm .box-text h5:after {
+    position: absolute;
+    content: '';
+    display: table-cell;
+    border-bottom: solid 2px;
+    width: 75%;
+    left: 35%;
+    top: 50%;    
+}
+
+#free-hubspot-crm li {
+  display: inline;
+  margin-right: 3%;
+  vertical-align: middle;  
+}
+
+.col-3 .col {
+  width: 31%;
+  margin:0 1%;
 }
