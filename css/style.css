@@ -68,6 +68,10 @@ p {
 
 
 /* TEXT ALIGNS */
+.txt-al-l {
+  text-align: left;
+}
+
 .txt-al-r {
   text-align: right;
 }
@@ -252,7 +256,7 @@ nav .srch-icon img {
 
 /* BOX SECTIONS */
 .box {  
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 1px 1px 5px  rgba(0, 0, 0, 0.3);
 }
 
@@ -270,7 +274,7 @@ nav .srch-icon img {
 
 /* FREE HUBSPOT CRM  */
 .box img {
-  width: 50%;
+  height: 100px;
 }
 
 #free-hubspot-crm .box {
@@ -287,19 +291,19 @@ nav .srch-icon img {
   width: 60%;
 }
 
-#free-hubspot-crm  h5 {
+.box h5 {
   position: relative;
   font-size: 110%;
 }
 
-#free-hubspot-crm .box-text h5:after {
-    position: absolute;
-    content: '';
-    display: table-cell;
-    border-bottom: solid 2px;
-    width: 75%;
-    left: 35%;
-    top: 50%;    
+#free-hubspot-crm h5:after {
+  position: absolute;
+  content: '';
+  display: table-cell;
+  border-bottom: solid 2px;
+  width: 75%;
+  left: 35%;
+  top: 50%;    
 }
 
 #free-hubspot-crm li {
@@ -308,7 +312,41 @@ nav .srch-icon img {
   vertical-align: middle;  
 }
 
+/* 3 BOX COLUMNS INFO-HUBSPOT  */
 .col-3 .col {
-  width: 31%;
-  margin:0 1%;
+  width: 30%;
+}
+.col-center {
+  margin: 0 5%;
+}
+
+.col-3 .box {
+  padding: 10px 14% 0;
+}
+
+.col-3 .box {
+  padding: 20px 15%;
+}
+
+.col h3 {
+  min-height: 40px;
+  margin: 20px auto;
+}
+.col p {
+  min-height: 200px;  
+}
+
+
+#info-hubspot h5:after {
+  position: absolute;
+  width: 100%;  
+  top: 0;
+  content: '';
+  display: table-cell;
+  border-bottom: solid 2px;
+}
+
+#info-hubspot .btn-lrg {
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
