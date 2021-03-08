@@ -106,6 +106,7 @@ p {
 .pt-60 {
   padding-top: 60px;
 }
+
 .pb-60 {
   padding-bottom: 60px;
 }
@@ -113,12 +114,19 @@ p {
 .mv-20 {
   margin: 20px 0;
 }
+
 .mv-30 {
   margin: 30px 0;
 }
+
 .mv-50 {
   margin: 50px 0;
 }
+
+.mt-30 {
+  margin-top: 30px;
+}
+
 .mt-50 {
   margin-top: 50px;
 }
@@ -164,6 +172,9 @@ p {
 
 .bg-linear-grn {
   background: linear-gradient(to right, #00A0AE 3%, #00B39C 100%);
+}
+.bg-grey {
+  background-color: #C3D0DD;
 }
 
 /* COLORS */
@@ -414,4 +425,20 @@ nav .srch-icon img {
 
 #start-growing img {
   width: 50%;
+}
+
+/* FOOTER */
+
+footer li {
+  list-style: none;
+  margin: 15px 0;
+}
+footer a {
+  text-decoration: none;
+  color: #C3D0DD;  
+}
+
+footer .footer-list {
+  width: 25%;
+  padding: 0 2%;
 }
