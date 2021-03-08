@@ -56,6 +56,9 @@ p {
 .block {
   display: block;
 }
+.inln-blck {
+  display: inline-block;
+}
 
 /* FONT SIZES */
 .font-80perc {
@@ -77,7 +80,6 @@ p {
 
 
 /* WIDTHS */
-
 .w-50 {
   width: 50%;
   margin: auto;
@@ -132,6 +134,15 @@ p {
 
 .btn-lrg .btn{
   padding: 20px 35px;
+}
+
+/* BORDERS */
+.border-r {  
+  border-right: 1px solid;
+}
+
+.border-bot {
+  border-bottom: solid 1px;
 }
 
 /* BACKGROUND COLORS */
@@ -357,9 +368,6 @@ nav .srch-icon img {
   padding: 1% 2%;
   max-height: 200px;
 }
-.border-r {  
-  border-right: 1px solid;
-}
 
 #table-awards img {
   height: 25px;
@@ -370,9 +378,40 @@ nav .srch-icon img {
 #table-awards span {
   font-weight: 300;
 }
-#table-awards .row-top {
-  border-bottom: solid 1px;
-  border-width: 150%;
+
+/* CUSTOMERS CLIENTS */
+#number-customers {
+  width:20%;
+  padding: 2%;
+}
+#number-customers h2{
+  font-size: 45px;
 }
 
+#customer-logo {
+  width: 64%;
+  margin-right: 10%;
+  text-align: right;
+  vertical-align: top;
+}
 
+#customer-logo img {
+  width: 15%;
+  margin-top: 30px;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+#start-growing  {
+  margin-right: 10%;
+}
+
+.strt-growing-txt {
+  width: 40%;
+  margin-right: 10%;
+  padding-right: 2%;
+}
+
+#start-growing img {
+  width: 50%;
+}
