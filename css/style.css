@@ -434,7 +434,6 @@ nav .srch-icon img {
 }
 
 /* FOOTER */
-
 footer li {
   list-style: none;
   margin: 15px 0;
@@ -462,4 +461,8 @@ footer .lang li,
 #copiright-privacy li  {
   display: inline-block;
   margin-right: 25px;
+}
+
+footer a:hover:not(.btn) {
+  color: coral;
 }
