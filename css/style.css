@@ -448,3 +448,11 @@ footer .footer-list {
   margin-right: 25px;
   font-size: 20px;
 }
+
+footer .lang ul {
+  text-align: center;
+}
+footer .lang li {
+  display: inline-block;
+  margin-right: 25px;
+}
