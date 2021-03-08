@@ -152,6 +152,10 @@ p {
 .border-bot {
   border-bottom: solid 1px;
 }
+.border-top {
+  border-top: solid 1px;
+  border-color: inherit;
+}
 
 /* BACKGROUND COLORS */
 .bg-lgrey {
@@ -185,7 +189,9 @@ p {
 .white {
   color: white;
 }
-
+.grey {
+  color: #C3D0DD;  
+}
 
 /* NAV */
 nav li {
@@ -452,7 +458,8 @@ footer .footer-list {
 footer .lang ul {
   text-align: center;
 }
-footer .lang li {
+footer .lang li,
+#copiright-privacy li  {
   display: inline-block;
   margin-right: 25px;
 }
