@@ -365,7 +365,8 @@ nav .srch-icon img {
 }
 
 #table-awards img {
-  max-height: 60px;
+  height: 25px;
+  max-height: 30px;
   margin: 20px auto;
 }
 
