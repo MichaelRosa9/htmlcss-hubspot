@@ -42,7 +42,7 @@ p {
 }
 
 /* CLEARFIX */
-.clearfix {
+.clearfix::after {
   content: '';
   display: table;
   clear: both;
@@ -149,6 +149,10 @@ p {
 }
 .bg-lgrn {
   background-color: #9EE8E0;
+}
+
+.bg-linear-grn {
+  background: linear-gradient(to right, #00A0AE 3%, #00B39C 100%);
 }
 
 /* COLORS */
@@ -258,11 +262,17 @@ nav .srch-icon img {
   margin-right: 3%;
 }
 
-/* FREE HUBSPOT CRM  */
 .box img {
   height: 100px;
 }
 
+.box h5 {
+  position: relative;
+  font-size: 110%;
+}
+
+
+/* FREE HUBSPOT CRM  */
 #free-hubspot-crm .box {
   width: 100%;
   padding: 80px 8% 60px;
@@ -275,11 +285,6 @@ nav .srch-icon img {
 
 #free-hubspot-crm .box-text {
   width: 60%;
-}
-
-.box h5 {
-  position: relative;
-  font-size: 110%;
 }
 
 #free-hubspot-crm h5:after {
@@ -299,7 +304,6 @@ nav .srch-icon img {
 }
 
 /* 3 BOX COLUMNS INFO-HUBSPOT  */
-
 .col-3 .col {
   width: 30%;
 }
@@ -339,7 +343,38 @@ nav .srch-icon img {
 }
 
 /* TABLE AWARDS */
-
-.bg-linear-grn {
-  background: linear-gradient(to right, #00A0AE 3%, #00B39C 100%);
+#table-awards p {
+  font-size: 16px;  
+  padding: 0 60px;
 }
+
+.table .row{
+  width: 100%;
+}
+
+#table-awards .tb-cell {
+  width: 25%;
+  padding: 1% 2%;
+  max-height: 200px;
+}
+.table .borders {
+  border: solid 1px;
+  border-top: 0px;  
+  border-bottom: 1px;  
+  border-right: 1px;  
+}
+
+#table-awards img {
+  max-height: 60px;
+  margin: 20px auto;
+}
+
+#table-awards span {
+  font-weight: 300;
+}
+#table-awards .row-top {
+  border-bottom: solid 1px;
+  border-width: 150%;
+}
+
+
