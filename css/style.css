@@ -357,11 +357,8 @@ nav .srch-icon img {
   padding: 1% 2%;
   max-height: 200px;
 }
-.table .borders {
-  border: solid 1px;
-  border-top: 0px;  
-  border-bottom: 1px;  
-  border-right: 1px;  
+.border-r {  
+  border-right: 1px solid;
 }
 
 #table-awards img {
