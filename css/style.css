@@ -21,13 +21,11 @@
 5 COLORS
 
 
-HEADER
-
-6 NAV
-  6.1 NAV LANG/CONTACT US
-  6.2 NAV MENU-ABOUT SORT ARROW
-
-7 BANNER HEADER
+6 HEADER
+  6.1 NAV
+  6.2 LANG/CONTACT US
+  6.3 MENU-ABOUT SORT ARROW
+  6.4 BANNER HEADER
 
 
 MAIN
@@ -252,9 +250,9 @@ p {
 }
 
 
-/* HEADER */
+/* 6 HEADER */
 
-/* 6 NAV */
+/* 6.1 NAV */
 nav li {
   display: inline-block;
   margin: 0 1%;
@@ -268,14 +266,20 @@ nav .srch-icon img {
   vertical-align: middle;
 }
 
-/* 6.1 NAV LANG/CONTACT US */
-#nav-lang-contact li:first-of-type {
+/* 6.2 LANG/CONTACT US */
+.nav-lang  {
+  position: relative;
+}
+.nav-lang a::after {
+  position: absolute;  
+  content: '';
+  padding-right: 10px;
   border-right: solid 1px;
-  height: 21px;
-  padding-right: 2%;
+  height: 20px;
+  padding-right: 10px;
 }
 
-/* 6.2 NAV MENU-ABOUT SORT ARROW */
+/* 6.3 MENU-ABOUT SORT ARROW */
 #menu-about li {
   margin-top: 5px;
   margin-left: 2%;
@@ -289,7 +293,7 @@ nav .srch-icon img {
 }
 
 
-/* 7 BANNER HEADER */
+/* 6.4 BANNER HEADER */
 #banner-header {
   position: relative;
   height: 695px;    
