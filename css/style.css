@@ -10,7 +10,7 @@
   2.5 TEXT ALIGN
   2.6 WIDTH
   2.7 PADDING
-  2.8 Margin
+  2.8 MARGIN
 
 3 COMPONENTS
   3.1 BUTTONS
@@ -20,6 +20,7 @@
 
 5 COLORS
 
+
 HEADER
 
 6 NAV
@@ -27,6 +28,9 @@ HEADER
   6.2 NAV MENU-ABOUT SORT ARROW
 
 7 BANNER HEADER
+
+
+MAIN
 
 8 CUBE POWERFULL SECTION
 
@@ -314,6 +318,8 @@ nav .srch-icon img {
 }
 
 
+/* MAIN */
+
 /* 8 CUBE POWERFULL SECTION */
 #cube-powerfull img {
   width: 20%;
@@ -518,6 +524,7 @@ footer .footer-list {
   margin-right: 25px;
   font-size: 20px;
 }
+
 
 footer .lang ul {
   text-align: center;
