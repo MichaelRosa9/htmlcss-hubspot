@@ -15,7 +15,7 @@ body {
   margin: auto;
 }
 
-/* LINE HEGHT P */
+/* GLOBAL H2 H3 LINE HEGHT P */
 h2 {
   font-size: 200%;
 }
@@ -392,9 +392,16 @@ nav .srch-icon img {
   margin: 20px auto;
 }
 
-#table-awards span {
+
+#table-awards h2::after {
+  content: 	'\02B';
   font-weight: 300;
+  font-size: 30px;
 }
+/* #table-awards span {
+  font-weight: 300;
+} */
+
 
 /* CUSTOMERS CLIENTS */
 #number-customers {
