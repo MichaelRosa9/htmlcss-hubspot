@@ -1,3 +1,49 @@
+
+/* INDEX CSS
+1 GLOBAL H2 H3 LINE HEGHT P
+
+2 GENERAL CLASSES
+  2.1 HORIZONTAL BARS
+  2.2 CLEARFIX FLOAT-LEFT
+  2.3 DSIPLAY 
+  2.4 FONT SIZE
+  2.5 TEXT ALIGN
+  2.6 WIDTH
+  2.7 PADDING
+  2.8 Margin
+
+3 COMPONENTS
+  3.1 BUTTONS
+  3.2 BORDERS
+
+4 BACKGROUND COLORS
+
+5 COLORS
+
+HEADER
+
+6 NAV
+  6.1 NAV LANG/CONTACT US
+  6.2 NAV MENU-ABOUT SORT ARROW
+
+7 BANNER HEADER
+
+8 CUBE POWERFULL SECTION
+
+9 BOX SECTIONS
+
+10 FREE HUBSPOT CRM
+
+11 3BOX COLUMNS INFO-HUBSPOT
+
+12 GREEN TABLE AWARDS 
+
+13 CUSTOMERS CLIENTS
+
+14 FOOTER
+*/
+
+/* 1 GLOBAL H2 H3 LINE HEGHT P */
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +61,6 @@ body {
   margin: auto;
 }
 
-/* GLOBAL H2 H3 LINE HEGHT P */
 h2 {
   font-size: 200%;
 }
@@ -30,7 +75,10 @@ p {
   font-weight: 500;
 }
 
-/* HORIZONTAL BARS */
+
+/* 2 GENERAL CLASSES  */
+
+/* 2.1 HORIZONTAL BARS */
 .h-bar100 {
   width: 100%;
   height: 100px;
@@ -41,7 +89,8 @@ p {
   height: 80px;
 }
 
-/* CLEARFIX */
+
+/* 2.2 CLEARFIX FLOAT-LEFT */
 .clearfix::after {
   content: '';
   display: table;
@@ -52,7 +101,8 @@ p {
   float: left;
 }
 
-/* DSIPLAY */
+
+/* 2.3 DSIPLAY */
 .block {
   display: block;
 }
@@ -60,13 +110,14 @@ p {
   display: inline-block;
 }
 
-/* FONT SIZES */
+
+/* 2.4 FONT SIZE */
 .font-80perc {
   font-size: 80%;
 }
 
 
-/* TEXT ALIGNS */
+/* 2.5 TEXT ALIGN */
 .txt-al-l {
   text-align: left;
 }
@@ -79,7 +130,7 @@ p {
 }
 
 
-/* WIDTHS */
+/* 2.6 WIDTH */
 .w-50 {
   width: 50%;
   margin: auto;
@@ -90,7 +141,7 @@ p {
   margin: auto;
 }
 
-/* PADDINGS AND MARGINS */
+/* 2.7 PADDING */
 .pv-25 {
   padding: 25px 0;
 }
@@ -111,6 +162,7 @@ p {
   padding-bottom: 60px;
 }
 
+/* 2.8 MARGIN */
 .mv-20 {
   margin: 20px 0;
 }
@@ -131,7 +183,9 @@ p {
   margin-top: 50px;
 }
 
-/* BUTTONS */
+/* 3 COMPONENTS */
+
+/* 3.1 BUTTONS */
 .btn {
   padding: 10px;
   text-decoration: none;
@@ -144,7 +198,7 @@ p {
   padding: 20px 35px;
 }
 
-/* BORDERS */
+/* 3.2 BORDERS */
 .border-r {  
   border-right: 1px solid;
 }
@@ -157,7 +211,7 @@ p {
   border-color: inherit;
 }
 
-/* BACKGROUND COLORS */
+/* 4 BACKGROUND COLORS */
 .bg-lgrey {
   background-color: #F2F8FC;
 }
@@ -181,7 +235,7 @@ p {
   background-color: #C3D0DD;
 }
 
-/* COLORS */
+/* 5 COLORS */
 .drkbl {
   color: #2A3E50;
 }
@@ -193,7 +247,10 @@ p {
   color: #C3D0DD;  
 }
 
-/* NAV */
+
+/* HEADER */
+
+/* 6 NAV */
 nav li {
   display: inline-block;
   margin: 0 1%;
@@ -207,15 +264,14 @@ nav .srch-icon img {
   vertical-align: middle;
 }
 
-
-/* NAV LANG/CONTACT US */
+/* 6.1 NAV LANG/CONTACT US */
 #nav-lang-contact li:first-of-type {
   border-right: solid 1px;
   height: 21px;
   padding-right: 2%;
 }
 
-/* NAV MENU-ABOUT SORT ARROW */
+/* 6.2 NAV MENU-ABOUT SORT ARROW */
 #menu-about li {
   margin-top: 5px;
   margin-left: 2%;
@@ -229,7 +285,7 @@ nav .srch-icon img {
 }
 
 
-/* BANNER HEADER */
+/* 7 BANNER HEADER */
 #banner-header {
   position: relative;
   height: 695px;    
@@ -239,14 +295,12 @@ nav .srch-icon img {
   background-color: #FFF2ED;
 }
 
-
 #bot-banner-overlay {
   position: absolute;
   bottom: -14px;
   border: solid #2A3E50;
   border-width: 3px 0; 
 }
-
 
 #header-jumbotron {
   position: absolute;
@@ -260,19 +314,19 @@ nav .srch-icon img {
 }
 
 
-/* CUBE POWERFULL SECTION */
+/* 8 CUBE POWERFULL SECTION */
 #cube-powerfull img {
   width: 20%;
   margin: 50px auto 0;
 }
-
 
 #cube-powerfull .txt-al-c.drkbl {
   width: 65%;
   margin: auto;
 }
 
-/* BOX SECTIONS */
+
+/* 9 BOX SECTIONS */
 .box {  
   border-radius: 5px;
   box-shadow: 1px 1px 5px  rgba(0, 0, 0, 0.3);
@@ -300,7 +354,7 @@ nav .srch-icon img {
 }
 
 
-/* FREE HUBSPOT CRM  */
+/* 10 FREE HUBSPOT CRM  */
 #free-hubspot-crm .box {
   width: 100%;
   padding: 80px 8% 60px;
@@ -331,7 +385,8 @@ nav .srch-icon img {
   vertical-align: middle;  
 }
 
-/* 3 BOX COLUMNS INFO-HUBSPOT  */
+
+/* 11 3BOX COLUMNS INFO-HUBSPOT  */
 .col-3 .col {
   width: 30%;
 }
@@ -370,7 +425,8 @@ nav .srch-icon img {
   margin-bottom: 20px;
 }
 
-/* TABLE AWARDS */
+
+/* 12 GREEN TABLE AWARDS */
 #table-awards p {
   font-size: 16px;  
   padding: 0 60px;
@@ -398,16 +454,14 @@ nav .srch-icon img {
   font-weight: 300;
   font-size: 30px;
 }
-/* #table-awards span {
-  font-weight: 300;
-} */
 
 
-/* CUSTOMERS CLIENTS */
+/* 13 CUSTOMERS CLIENTS */
 #number-customers {
   width:20%;
   padding: 2%;
 }
+
 #number-customers h2{
   font-size: 45px;
 }
@@ -440,7 +494,11 @@ nav .srch-icon img {
   width: 50%;
 }
 
-/* FOOTER */
+
+/* 14 FOOTER */
+footer h5 {
+  font-size: 17px;
+}
 footer li {
   list-style: none;
   margin: 15px 0;
